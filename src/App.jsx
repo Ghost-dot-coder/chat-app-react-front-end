@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 
-const WS_URL = "ws://localhost:8080";
+const WS_URL = "https://chat-app-websocket-server-9gf9.onrender.com";
 
 function formatTime(ts) {
   const d = new Date(ts);
